@@ -12,7 +12,7 @@
     
 }
 .app{
-    background: linear-gradient(135deg,rgba(18, 224, 117, 0.7),
+    background: linear-gradient(135deg,rgba(20, 151, 212, 0.7),
     rgba(14, 174, 91, 0.3));
     width:40%;
     max-width: 300px;
@@ -69,11 +69,15 @@
     margin-left: 10px;
     text-align: left;
 }
+.row i{
+    color: rgb(228, 214, 214);
+}
 .col p{
     font-size:12px;
 }
 .error{margin-left:10px;
     margin-top:8px;
-    color:brown;
+    color:red;
+    font-weight:bold;
     display: none;
 }
