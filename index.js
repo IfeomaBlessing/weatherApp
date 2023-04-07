@@ -42,10 +42,13 @@
         }
 
     document.querySelector(".weather").style.display ="block";
+
+   
  };
 
  button.addEventListener("click",function(){
     checkWeather(inputBox.value);
+
  });
 
 
