@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7aff0d4601.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="app">
+            <form action="#">
+                <input type="text"placeholder ="Enter city name"id="inputBox">
+                <button id="btn"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <div class="error">Enter a valid city</div>
+            <section class="weather">
+                <!-- <i class="fa-solid fa-cloud-sun-rain" id="weather-icon"></i> -->
+                <img src="./images/clouds.png" id="weather-icon">
+                <h2 id="temp">22°c</h2>
+                <h6 id="city">Lagos</h6>
+            
+                <div class="details">
+                    <div class="row">
+                        <i class="fa-solid fa-water"></i>
+                        <div class="col">
+                            <p id="humidity">10%</p>
+                            <h6>Humidity</h6>
+                        </div>
+                    </div>
+
+                        <div class="row">
+                            <i class="fa-solid fa-wind"></i>
+                            <div class="col">
+                                <p id="wind">29km/hr</p>
+                                <h6>Windspeed</h6>
+                            </div>
+                      </div>
+                </div>
+            </section>
+            </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
